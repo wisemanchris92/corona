@@ -1,0 +1,26 @@
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="project with python/flask">
+        <meta name="author" content="Chris Wiseman">
+
+        {% if title %}
+        <title>{{ title }} - Corona</title>
+        {% else %}
+        <title>This is Corona</title>
+        {% endif %}
+        
+    </head>
+
+    <body>
+
+        <div>Corona: <a href="/index">Home</a></div>
+        <hr>
+        {% block content %}
+        {% endblock %}
+    </body>
+
+</html>
