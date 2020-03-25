@@ -10,6 +10,3 @@ from app import routes, errors
 # if __name__ == '__main__':
 #     print("server is running on localhost:5000")
 #     app.run()
-
-
-

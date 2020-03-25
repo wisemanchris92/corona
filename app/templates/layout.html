@@ -1,11 +1,14 @@
+<!DOCTYPE html>
 
-<html>
+<html lang="en">
+
 
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <meta name="description" content="project with python/flask">
         <meta name="author" content="Chris Wiseman">
+        <link rel="stylesheet" href="">
 
         {% if title %}
         <title>{{ title }} - Corona</title>
@@ -17,7 +20,12 @@
 
     <body>
 
-        <div>Corona: <a href="/index">Home</a></div>
+        <!-- page links -->
+        <div>Corona: 
+            <a href="/index">Home</a>
+            <a href="/about">About</a>
+        </div>
+        
         <hr>
         {% block content %}
         {% endblock %}
