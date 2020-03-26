@@ -11,29 +11,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
         <meta name="author" content="Chris Wiseman">
         <!-- ========own css resources file======== -->
-        <link href="/static/coronaStyle.css" rel="stylesheet">
+        <link href="/static/css/coronaStyle.css" rel="stylesheet">
+        
         <!-- bootstrap css resources -->
         <!-- <link href="/static/bootstrap.min.css" rel="stylesheet" media="screen"> -->
         <!-- bootstrap javascript resources -->
         <!-- <script src="/static/bootstrap.min.js"></script> -->
     </head>
     <body>
-        <!-- background, youtube video -->
-        <a id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/92qFYXfgFBE',containment:'body',autoPlay:true, mute:false, startAt:0, stopAt:0, opacity:1}"></a>
-        <!-- Page preloader -->
-        <div id="loading">
-            <div id="preloader">
-                <span></span> 
-                <span></span>
-            </div>
-        </div>
+        
         <!-- page links -->
         <div>Corona: 
             <a href="/index">Home</a>
             <a href="/about">About</a>
         </div>
         
-        <hr>
+        <hr class="style-one">
+
         {% block content %}
         {% endblock %}
 

@@ -1,0 +1,25 @@
+body {
+    background-color: darkslategrey;
+}
+
+h1 {
+    color: ivory;
+}
+
+a:link, a:visited {
+    color: ivory;
+    text-decoration: underline;
+}
+
+a:link:active, a:visited:active {
+    color: rgb(223, 167, 94);
+}
+
+hr.style-one {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.5px;
+}
