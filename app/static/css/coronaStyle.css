@@ -23,3 +23,14 @@ hr.style-one {
     border-style: inset;
     border-width: 0.5px;
 }
+
+.menuIcon {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.toolBar {
+    align-content: center;
+}
